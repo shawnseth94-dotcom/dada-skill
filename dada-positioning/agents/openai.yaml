@@ -1,0 +1,4 @@
+interface:
+  display_name: "达达定位法"
+  short_description: "通过人设、人群、需求三角，完成个人 IP 定位探索与验证"
+  default_prompt: "使用 $dada-positioning 引导我完成个人 IP 定位探索，并给出可验证的定位假设。"
