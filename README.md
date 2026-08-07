@@ -56,10 +56,11 @@ git clone git@github.com:shawnseth94-dotcom/dada-skill.git
 | `dada-knowledge-boost` | 知识增厚，必须在人味草稿确认之后才用，加金句引用、证据类比、反直觉转折 |
 | `dada-guide` | 干货指南生成器，步骤必须从洞察推导出来，不是洞察加步骤两张皮 |
 
-### 把关与用户洞察
+### 战略、把关与用户洞察
 
 | Skill | 作用 |
 |---|---|
+| `dada-strategy` | 杠杆战略分析器，从阶段性终局倒推关键前提，至少下钻六层，排除伪重点，最终给出唯一最值得 All in 的战略支点、止损线和 CEO 亲抓事项 |
 | `dada-identity` | 身份过滤器，在发任何内容之前，判断这篇文章是强化了核心身份，还是在悄悄稀释它 |
 | `user-insight` | 用户洞察引擎，输入行业背景和已服务案例，输出用户分层、痛点矩阵、核心用户识别，判断标准是谁离激发购买意识越近谁就离成交越近 |
 | `pain-to-voice` | 用户心里话翻译工具，把抽象、总结性的痛点描述，翻译成用户真实说话的方式 |
@@ -75,7 +76,7 @@ git clone git@github.com:shawnseth94-dotcom/dada-skill.git
 
 ## 一个典型流程
 
-选题用 `dada-mining` 或 `dada-insight` 挖出来，正文用 `dada-writer` 写，标题用 `dada-wechat-title` 配，开头用 `dada-wechat-hook` 优化，写完想加深度再用 `dada-knowledge-boost`。也可以直接说「帮我走一遍全流程」，交给 `dada-workflow` 调度。
+业务方向不清楚时，先用 `dada-strategy` 找出唯一战略支点；进入内容生产后，选题用 `dada-mining` 或 `dada-insight` 挖出来，正文用 `dada-writer` 写，标题用 `dada-wechat-title` 配，开头用 `dada-wechat-hook` 优化，写完想加深度再用 `dada-knowledge-boost`。也可以直接说「帮我走一遍全流程」，交给 `dada-workflow` 调度。
 
 ---
 
